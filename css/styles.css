@@ -488,9 +488,10 @@ header {
     transform: scale(1);
     transition: all 0.5s;
 
-    filter: grayscale(100%) contrast(50%);
-
-    
+    filter: grayscale(100%) contrast(50%); 
+}
+.blog__item10 img {
+    object-fit: cover;
 }
 
 .blog__item:hover img {
