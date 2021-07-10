@@ -225,6 +225,7 @@ header {
 }
 
 .showcase__grid {
+    padding-top: 20px;
     display: grid;
     /*
     Chỉ dùng khi cột có kích thước khác nhau
