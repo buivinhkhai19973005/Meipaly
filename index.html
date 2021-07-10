@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meipaly</title>
+
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Slick css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancy box -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+    <!-- Main css -->
+    <!-- Main nằm dưới để có độ ưu tiên code cao , để khi cần đè code của thư viện thì sẽ đè được -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="header__content">
+            <a href="#" class="header__logo">
+                <i class="fab fa-atlassian"></i>
+                Meipaly
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">showcase</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End-header -->
+
+    <!-- Start-Carousel -->
+    <section class="carousel">
+        <div class="carousel__content">
+            <p>WELCOME TO MEIPALY AGENCY</p>
+            <h1>
+                SMART WEB
+                <br>
+                DESIGN AGENCY
+            </h1>
+            <button>READ MORE</button>
+            <div class="carousel__icon carousel__upDown">
+                <i class="fa fa-angle-double-down"></i>
+            </div>
+        </div>
+    </section>
+    <!-- End-Carousel -->
+
+    <!-- Start services -->
+    <section class="services">
+        <div class="services__content">
+            <p>SERVICES WE ARE OFFERING</p>
+            <h1>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h1>
+            <p>We are committed to providing our customers with exceptional service while offering <br>
+                our employees the best training.
+            </p>
+            <div class="services__slider">
+                <div class="services__sliderContent">
+                    <div class="services__item">
+                        <i class="fa fa-dice-d6"></i>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="services__item">
+                        <i class="fab fa-autoprefixer"></i>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="services__item">
+                        <i class="fab fa-500px"></i>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="services__item">
+                        <i class="fa fa-blog"></i>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="services__item">
+                        <i class="fab fa-battle-net"></i>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="services__item">
+                        <i class="fa fa-memory"></i>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End services -->
+
+    <!-- Start showcase -->
+    <section class="showcase">
+        <div class="showcase__content">
+            <div class="showcase__title">
+                <p>SERVICES WE ARE OFFERING</p>
+                <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h2>
+                <p>We are committed to providing our customers with exceptional service while offering <br>
+                    our employees the best training.
+                </p>
+            </div>
+            <div class="showcase__grid">
+                <div class="showcase__item">
+                    <img src="./image/showcase_img_1.webp" alt="">
+                    <div class="showcase__overlay">
+                        <div class="showcase__icon">
+                            <a data-fancybox="single" href="./image/showcase_img_1.webp">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                        <div class="showcase__name">
+                            <p>LOGO</p>
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item effect2">
+                    <img src="./image/showcase_img_2.webp" alt="">
+                    <div class="showcase__overlay">
+                        <div class="showcase__icon">
+                            <a data-fancybox="single" href="./image/showcase_img_2.webp">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                        <div class="showcase__name">
+                            <p>LOGO</p>
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item effect3">
+                    <img src="./image/showcase_img_3.webp" alt="">
+                    <div class="showcase__overlay">
+                        <div class="showcase__icon">
+                            <a data-fancybox="single" href="./image/showcase_img_3.webp">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                        <div class="showcase__name">
+                            <p>LOGO</p>
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item effect4">
+                    <img src="./image/showcase_img_5.webp" alt="">
+                    <div class="showcase__overlay">
+                        <div class="showcase__icon">
+                            <a data-fancybox="single" href="./image/showcase_img_5.webp">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                        <div class="showcase__name">
+                            <p>LOGO</p>
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item effect5">
+                    <img src="./image/showcase_img_6.webp" alt="">
+                    <div class="showcase__overlay">
+                        <div class="showcase__icon">
+                            <a data-fancybox="single" href="./image/showcase_img_6.webp">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                        <div class="showcase__name">
+                            <p>LOGO</p>
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__item">
+                    <img src="./image/showcase_img_7.webp" alt="">
+                    <div class="showcase__overlay">
+                        <div class="showcase__icon">
+                            <a data-fancybox="single" href="./image/showcase_img_7.webp">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                        <div class="showcase__name">
+                            <p>LOGO</p>
+                            <h3>Lorem, ipsum dolor.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End showcase -->
+
+    <!-- Start Blog -->
+    <section class="blog">
+        <div class="blog__content">
+            <div class="blog__title">
+                <p>SERVICES WE ARE OFFERING</p>
+                <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h2>
+                <p>We are committed to providing our customers with exceptional service while offering <br>
+                    our employees the best training.
+                </p>
+            </div>
+            <div class="blog__grid">
+                <div class="blog__item blog__item1">
+                    <img src="./image/grid-metro-1.jpg" alt="">
+                </div>
+                <div class="blog__item">
+                    <img src="./image/grid-metro-2.jpg" alt="">
+                </div>
+                <div class="blog__item">
+                    <img src="./image/grid-metro-3.jpg" alt="">
+                </div>
+                <div class="blog__item">
+                    <img src="./image/grid-metro-4.jpg" alt="">
+                </div>
+                <div class="blog__item">
+                    <img src="./image/grid-metro-5.jpg" alt="">
+                </div>
+                <div class="blog__item">
+                    <img src="./image/grid-metro-6.jpg" alt="">
+                </div>
+                <div class="blog__item">
+                    <img src="./image/grid-metro-7.jpg" alt="">
+                </div>
+                <div class="blog__item">
+                    <img src="./image/grid-metro-8.jpg" alt="">
+                </div>
+                <div class="blog__item">
+                    <img src="./image/grid-metro-9.jpg" alt="">
+                </div>
+                <div class="blog__item blog__item10">
+                    <img src="./image/grid-metro-10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog -->
+
+    <section class="number">
+        <div class="number__content">
+            <div class="number__item">
+                <p class="counter">8,705</p>
+                <p>PROJECTS COMPLETED</p>
+            </div>
+            <div class="number__item">
+                <p class="counter">480</p>
+                <p>ACTIVE CLIENTS</p>
+            </div>
+            <div class="number__item">
+                <p class="counter">625</p>
+                <p>CUPS OF COFFEE</p>
+            </div>
+            <div class="number__item">
+                <p class="counter">9,774</p>
+                <p>HAPPY CLIENTS</p>
+            </div>
+        </div>
+    </section>
+    <section class="clients"></section>
+    <section class="exp"></section>
+    <section class="contact"></section>
+    <footer></footer>
+
+    <!-- Jquery-Thư viện hỗ trợ -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Slick JS -->
+    <!-- Slick dung thu ngon ngu jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Gọi thư viện slick để sử dụng -->
+    <script>
+        //  $('.autoplay'): đi kiếm thẻ có tên class là "services__sliderContent" sau đó gắn hiệu ứng slick vào thẻ
+        $('.services__sliderContent').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: true
+        });
+    </script>
+
+    <!-- Fancy box JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+     <!-- waypoints  -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+     <!-- Count up -->
+    <script src="./js/jquery.countup.js"></script>
+
+    <script>
+        // Code gọi count up
+        $('.counter').countUp();
+    </script>
+    
+</body>
+
+</html>
